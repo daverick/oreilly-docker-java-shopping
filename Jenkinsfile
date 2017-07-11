@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 node {
     stage ('build') {
         git url: 'https://github.com/daverick/oreilly-docker-java-shopping.git'
